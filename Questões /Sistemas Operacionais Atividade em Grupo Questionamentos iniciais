@@ -1,0 +1,7 @@
+6)
+1. Buscar de 1 instrução ( load )
+2. Decodificar a instrução
+3. Buscar na memória os operandos ( load )
+4. Executar a instrução
+5. Armazenar os resltados na RAM ( store )
+6. Atualizar o estado da próxima instrução 
