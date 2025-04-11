@@ -16,14 +16,14 @@ Preemptivo interrompe a execução se chegar um processo menor
 |--> Fila esta organizada em ordem de chegada 
 
 Cenário: Escalonamento por prioridade                             
-| Processo | Instante Chegada | Ciclo de CPU | Prioridade | Início Execução | Fim Execução | Tempo de Espera | Tempo de Retorno |
-|----------|------------------|--------------|------------|------------------|---------------|------------------|-------------------|
-| P1       |        0         |      3       |     4      |        0         |       3       |        0         |         3         |
-| P2       |        1         |      4       |     0      |        3         |       7       |        2         |         6         |
-| P3       |        2         |      2       |     0      |        7         |       9       |        5         |         7         |
-| P4       |        3         |      1       |     1      |        9         |      10       |        6         |         7         |
-| P5       |        4         |       5      |    
-| P6       |        5         |       2      |      0
-   
+| Processo | Instante Chegada | Ciclo de CPU | Prioridade |  Fim Execução | Tempo de Espera | Tempo de Retorno |
+|----------|------------------|--------------|------------|---------------|---------------|---------------------|
+| P1       |        0         |      3       |     4      |               |       3       |        0            |              
+| P2       |        1         |      4       |     0      |               |       7       |        2            |                 
+| P3       |        2         |      2       |     0      |               |       9       |        5            |                 
+| P4       |        3         |      1       |     1      |               |      10       |        6            |                 
+| P5       |        4         |       5      |     3      |               |       15      |                     |                   
+| P6       |        5         |       2      |     0      |               |               |                     |                   
+
 Problema: Espera indefinida, stavation  ou postergação indefinida 
 Solução: Técnica de envelhecimento ( aging )
