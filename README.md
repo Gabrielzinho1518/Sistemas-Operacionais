@@ -9,6 +9,11 @@ Não - preemptivo
 Preemptivo interrompe a execução se chegar um processo menor
 
 3) Prioridade: PCB ou descritor: tem a prioridade do processo
-   
 
-![image](https://github.com/user-attachments/assets/f975777e-da42-47ea-933a-b4057a253927)
+Cenário: Escalonamento por prioridade                             |--------------------|
+                                                                  |                    |
+Processo	Instante de Chegada	Ciclo de CPU	Prioridade
+P1	0	3	4
+P2	1	4	0
+P3	2	2	0
+P4	3	1	1
