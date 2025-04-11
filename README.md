@@ -23,7 +23,7 @@ Cenário: Escalonamento por prioridade
 | P3       |        2         |      2       |     0      |        7         |       9       |        5         |         7         |
 | P4       |        3         |      1       |     1      |        9         |      10       |        6         |         7         |
 | P5       |        4         |       5      |    
-| p6       |          5       |       2      |      0
+| P6       |        5         |       2      |      0
    
 Problema: Espera indefinida, stavation  ou postergação indefinida 
 Solução: Técnica de envelhecimento ( aging )
